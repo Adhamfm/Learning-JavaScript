@@ -1,0 +1,46 @@
+h1,
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(82, 223, 255);
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(109, 109, 109);
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(82, 223, 255);
+    font-family: monospace;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: crimson;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#increment_button,
+#save_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#increment-btn {
+    align-content: center;
+    background: darkcyan;
+}
+
+#save-btn {
+    background-color: green;
+}
