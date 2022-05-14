@@ -14,6 +14,8 @@ h1 {
 }
 
 button {
+    display: flex;
+    justify-content: center;
     color: #016f32;
     font-size: 18px;
     font-weight: bold;
@@ -23,6 +25,13 @@ button {
     border: none;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: 2px;
+}
+
+#button-container {
+    display: grid;
+    /* border: 2px solid white; */
+    justify-content: center;
 }
 
 #message-el {
