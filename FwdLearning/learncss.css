@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+    font-size: 40px;
+}
+
+.container {
+    display: grid;
+    /* width: 100%; */
+    margin: auto;
+    grid-template-columns: repeat(3, 20vw);
+    grid-auto-rows: minmax(20vh, 40vh);
+    grid-gap: 25px;
+    grid-template-areas: "top top top top" "bottomLeft bottomLeft bottomRight bottomRight";
+    align-content: center;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    /* height: 35vh; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid red;
+}
+
+#one {
+    grid-area: top;
+}
+
+#two {
+    grid-area: bottomLeft;
+}
+
+#three {
+    grid-area: bottomRight;
+}
